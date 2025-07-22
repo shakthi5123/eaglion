@@ -61,7 +61,7 @@ const Navigation = () => {
           <a href="#about" className="block hover:text-red-500 border-b border-gray-800">About</a>
           <a href="#contact" className="block hover:text-red-500 border-b border-gray-800">Contact</a>
           <a
-            href="https://https://wa.me/7738619990"
+            href="https://wa.me/7738619990"
             target="_blank" 
             rel="noreferrer"
             className="block mt-2 px-3 py-2 border rounded-xl text-white font-medium bg-gradient-to-r from-cyan-500 to-purple-600 shadow-md hover:shadow-lg transition"
