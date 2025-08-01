@@ -21,7 +21,7 @@ const Products = () => {
       description:
         "Soft, collectible, and full of charm. Meet Labubu — your quirky new companion! & more colors available",
       tag: "Trending Now",
-      // price: "200",
+      price: "599",
     },
     {
       image: product2,
@@ -29,6 +29,7 @@ const Products = () => {
       description:
         "Collect them all! Each Labubu comes in a fun, vibrant color — same quirky charm, endless personality.",
       tag: "Trending Now",
+      price: "1200",
     },
     {
       image: product3,
@@ -36,6 +37,7 @@ const Products = () => {
       description:
         "Bring the moon to your room! This 3D-printed Moon Lamp glows in warm and cool tones",
       tag: "Trending Now",
+      price: "499",
     },
     {
       image: product4,
@@ -43,6 +45,7 @@ const Products = () => {
       description:
         "A stunning fusion of science and serenity — this 3D-engraved crystal planets balls",
       tag: "Trending Now",
+      price: "349",
     },
     {
       image: product5,
@@ -50,13 +53,15 @@ const Products = () => {
       description:
         "Flexible 360° swivel tap extender for easy rinsing and splash-free cleaning.",
       tag: "Trending Now",
+      price: "349",
     },
     {
       image: product6,
-      title: "Stanley Quencher FlowState Tumbler",
+      title: "Stanley Quencher Tumbler",
       description:
         "Hydrate in style. Keeps drinks hot or cold for hours with a spill-resistant lid and sleek design.",
       tag: "Trending Now",
+      price: "1999",
     },
     {
       image: product7,
@@ -64,6 +69,7 @@ const Products = () => {
       description:
         "Stay cool in peace. Whisper-quiet breeze with a refreshing mist — perfect for work, sleep, or study.",
       tag: "Trending Now",
+      price: "499",
     },
     {
       image: product8,
@@ -71,6 +77,7 @@ const Products = () => {
       description:
         "Dreamy, color-shifting waves that light up your space with a calming, magical ambiance.",
       tag: "Trending Now",
+      price: "399",
     },
     {
       image: product9,
@@ -78,13 +85,15 @@ const Products = () => {
       description:
         "Scalp Massager, Portable  Waterproof Massager, 3 Modes, Handheld Head Massager for Head.",
       tag: "Trending Now",
+      price: "599",
     },
     {
       image: product10,
       title: "Portable Sealer",
       description:
-        "Portable Mini Sealing Machine, Packet Sealer for Food, Snacks, Plastic Bags Sealing, Type C Charging",
+        "Portable Mini Sealing Machine, Packet Sealer for Food, Snacks, Plastic Bags Sealing",
       tag: "Trending Now",
+      price: "149",
     },
     {
       image: product11,
@@ -92,6 +101,7 @@ const Products = () => {
       description:
         "Breathe fresh, drive fresh — solar-powered and scent-filled for a clean, energized car every ride.",
       tag: "Trending Now",
+      price: "599",
     },
     {
       image: product12,
@@ -99,6 +109,7 @@ const Products = () => {
       description:
         "Compact but powerful — blast away dust in seconds with this turbo-charged mini blower.",
       tag: "Trending Now",
+      price: "1999",
     },
   ];
 
@@ -122,7 +133,7 @@ const Products = () => {
                 title={item.title}
                 description={item.description}
                 tag={item.tag}
-                // price={item.price}
+                price={item.price}
                 delay={index * 100}
               />
             ))}
