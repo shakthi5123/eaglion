@@ -1,5 +1,5 @@
-import React from 'react';
-import heroImage from '../assets/hero-image.jpeg'; 
+import React from "react";
+import heroImage from "../assets/hero-image.webp";
 
 const Hero = () => {
   return (
@@ -12,7 +12,8 @@ const Hero = () => {
 
         {/* Subheading */}
         <p className="text-gray-600 max-w-2xl mx-auto mb-8">
-          Dive into our curated collection of viral products that are taking the internet by storm. Shop now and stay ahead of the trends!
+          Dive into our curated collection of viral products that are taking the
+          internet by storm. Shop now and stay ahead of the trends!
         </p>
 
         {/* Buttons */}
@@ -20,27 +21,40 @@ const Hero = () => {
           <a
             href="#products"
             className="px-6 py-2 rounded-full text-white font-medium bg-gradient-to-r from-cyan-500 to-purple-600 shadow-md hover:shadow-lg transition"
-            data-aos='fade-up' data-aos-delay='300'
+            data-aos="fade-up"
+            data-aos-delay="300"
           >
             Shop
           </a>
           <a
             href="#about"
             className="px-6 py-2 rounded-full border border-gray-400 text-gray-700 font-medium hover:bg-gray-100 transition"
-            data-aos='fade-up' data-aos-delay='400'
+            data-aos="fade-up"
+            data-aos-delay="400"
           >
             Learn More
           </a>
         </div>
 
         {/* Hero Image */}
-        <div className="max-w-7xl mx-auto" data-aos='zoom-in'>
+
+        <picture>
+          <source srcSet={heroImage} type="image/webp" />
+          <img
+            src={heroImage}
+            alt="Trendy product showcase"
+            className="w-full max-h-[600px] rounded-2xl object-center object-cover"
+            loading="lazy"
+          />
+        </picture>
+
+        {/* <div className="max-w-7xl mx-auto" data-aos='zoom-in'>
           <img
             src={heroImage}
             alt="Trendy product showcase"
             className="w-full max-h-[600px] rounded-2xl object-center object-cover"
           />
-        </div>
+        </div> */}
       </div>
     </section>
   );
