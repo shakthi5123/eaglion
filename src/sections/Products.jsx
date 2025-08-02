@@ -1,22 +1,22 @@
-import React from "react";
+// import React from "react";
 import ProductCard from "../components/ProductCard";
-import product1 from "../assets/img1.jpeg";
-import product2 from "../assets/img2.jpeg";
-import product3 from "../assets/img3.jpeg";
-import product4 from "../assets/img4.jpeg";
-import product5 from "../assets/img5.jpeg";
-import product6 from "../assets/img6.jpeg";
-import product7 from "../assets/img7.jpeg";
-import product8 from "../assets/img8.jpeg";
-import product9 from "../assets/img9.jpeg";
-import product10 from "../assets/img10.jpeg";
-import product11 from "../assets/img11.jpeg";
-import product12 from "../assets/img12.jpeg";
+// import product1 from "/products/img1.jpeg";
+// import product2 from "/products/img2.jpeg";
+// import product3 from "/products/img3.jpeg";
+// import product4 from "/products/img4.jpeg";
+// import product5 from "/products/img5.jpeg";
+// import product6 from "/products/img6.jpeg";
+// import product7 from "/products/img7.jpeg";
+// import product8 from "/products/img8.jpeg";
+// import product9 from "/products/img9.jpeg";
+// import product10 from "/products/img10.jpeg";
+// import product11 from "/products/img11.jpeg";
+// import product12 from "/products/img12.jpeg";
 
 const Products = () => {
   const productData = [
     {
-      image: product1,
+      image: "/products/img1.jpeg",
       title: "Labubu Bunny Keychain",
       description:
         "Soft, collectible, and full of charm. Meet Labubu — your quirky new companion! & more colors available",
@@ -24,7 +24,7 @@ const Products = () => {
       price: "599",
     },
     {
-      image: product2,
+      image: "/products/img2.jpeg",
       title: "Colorful Labubu  Collection",
       description:
         "Collect them all! Each Labubu comes in a fun, vibrant color — same quirky charm, endless personality.",
@@ -32,7 +32,7 @@ const Products = () => {
       price: "1200",
     },
     {
-      image: product3,
+      image: "/products/img3.jpeg",
       title: "3D Moon Night Light Lamp",
       description:
         "Bring the moon to your room! This 3D-printed Moon Lamp glows in warm and cool tones",
@@ -40,7 +40,7 @@ const Products = () => {
       price: "499",
     },
     {
-      image: product4,
+      image: "/products/img4.jpeg",
       title: "Solar System Crystal Lamp",
       description:
         "A stunning fusion of science and serenity — this 3D-engraved crystal planets balls",
@@ -48,7 +48,7 @@ const Products = () => {
       price: "349",
     },
     {
-      image: product5,
+      image: "/products/img5.jpeg",
       title: "Tap Extender for kitchen Sink",
       description:
         "Flexible 360° swivel tap extender for easy rinsing and splash-free cleaning.",
@@ -56,7 +56,7 @@ const Products = () => {
       price: "349",
     },
     {
-      image: product6,
+      image: "/products/img6.jpeg",
       title: "Stanley Quencher Tumbler",
       description:
         "Hydrate in style. Keeps drinks hot or cold for hours with a spill-resistant lid and sleek design.",
@@ -64,7 +64,7 @@ const Products = () => {
       price: "1999",
     },
     {
-      image: product7,
+      image: "/products/img7.jpeg",
       title: "Super Silent Water Fan",
       description:
         "Stay cool in peace. Whisper-quiet breeze with a refreshing mist — perfect for work, sleep, or study.",
@@ -72,7 +72,7 @@ const Products = () => {
       price: "499",
     },
     {
-      image: product8,
+      image: "/products/img8.jpeg",
       title: "Aurora Waves Ambient Lamp",
       description:
         "Dreamy, color-shifting waves that light up your space with a calming, magical ambiance.",
@@ -80,7 +80,7 @@ const Products = () => {
       price: "399",
     },
     {
-      image: product9,
+      image: "/products/img9.jpeg",
       title: "Electric Scalp Massager",
       description:
         "Scalp Massager, Portable  Waterproof Massager, 3 Modes, Handheld Head Massager for Head.",
@@ -88,7 +88,7 @@ const Products = () => {
       price: "599",
     },
     {
-      image: product10,
+      image: "/products/img10.jpeg",
       title: "Portable Sealer",
       description:
         "Portable Mini Sealing Machine, Packet Sealer for Food, Snacks, Plastic Bags Sealing",
@@ -96,7 +96,7 @@ const Products = () => {
       price: "149",
     },
     {
-      image: product11,
+      image: "/products/img11.jpeg",
       title: "Solar Car Air Refresher",
       description:
         "Breathe fresh, drive fresh — solar-powered and scent-filled for a clean, energized car every ride.",
@@ -104,7 +104,7 @@ const Products = () => {
       price: "599",
     },
     {
-      image: product12,
+      image: "/products/img12.jpeg",
       title: "Mini Turbo Jet Blower",
       description:
         "Compact but powerful — blast away dust in seconds with this turbo-charged mini blower.",

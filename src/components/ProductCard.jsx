@@ -2,7 +2,8 @@ import React from "react";
 
 const ProductCard = ({ image, title, description, price, tag, delay }) => {
   const phoneNumber = "7977602483";
-  const whatsupMessage = `Hi I'm interested in ${title} priced at ₹${price}. Can you tell more?`;
+  const productImageURL = window.location.origin + image;
+  const whatsupMessage = `Hi I'm interested in buying ${title} for ₹${price}. It looks amazing! Can you tell more? ${productImageURL}`;
   const whatsupLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
     whatsupMessage
   )}`;
