@@ -21,7 +21,7 @@ const Products = () => {
       description:
         "Soft, collectible, and full of charm. Meet Labubu — your quirky new companion! & more colors available",
       tag: "Trending Now",
-      price: "599",
+      price: "999",
     },
     {
       image: "/products/img2.jpeg",
@@ -53,7 +53,7 @@ const Products = () => {
       description:
         "Flexible 360° swivel tap extender for easy rinsing and splash-free cleaning.",
       tag: "Trending Now",
-      price: "349",
+      price: "599",
     },
     {
       image: "/products/img6.jpeg",

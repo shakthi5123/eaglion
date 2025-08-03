@@ -3,7 +3,8 @@ import {
   FaWhatsapp,
   FaInstagram,
   FaTwitter,
-  FaFacebookF
+  FaFacebookF,
+  FaPhoneAlt
 } from 'react-icons/fa'
 
 const Footer = () => {
@@ -64,6 +65,11 @@ const Footer = () => {
             <span>Chat on WhatsApp</span>
           </a>
         </div>
+
+        <div className="flex items-center text-sm text-gray-400  space-x-2">
+            <FaPhoneAlt className="text-cyan-400" />
+            <span>7738619990 / 9321819634</span>
+          </div>
         </div>
       </div>
 

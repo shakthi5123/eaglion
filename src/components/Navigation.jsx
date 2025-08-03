@@ -58,7 +58,7 @@ const Navigation = () => {
 
         {/* Catalogue Button (Desktop Only) */}
         <a
-          href="https://wa.me/7738619990"
+          href="https://wa.me/9321819634"
           target="_blank"
           rel="noreferrer"
           data-aos="fade-up"
