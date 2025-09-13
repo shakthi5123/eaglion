@@ -33,7 +33,7 @@ const Products = () => {
       description:
         "A stunning fusion of science and serenity — this 3D-engraved crystal planets balls",
       tag: "Trending Now",
-      price: "349",
+      price: "499",
     },
     {
       image: "/products/img5.jpeg",
