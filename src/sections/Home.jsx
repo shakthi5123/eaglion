@@ -14,7 +14,7 @@ const Home = () => {
   <>
       {/* WhatsApp Floating Button */}
       <a
-        href="https://wa.me/7738619990" // ← Replace with your WhatsApp number
+        href="https://wa.me/7738462358" //  Replace with your WhatsApp number
         target="_blank"
         rel="noopener noreferrer"
         className="fixed right-2 top-1/2 transform -translate-y-1/2 z-50 bg-green-500 text-white p-2 rounded-full shadow-lg hover:scale-110 transition duration-300"

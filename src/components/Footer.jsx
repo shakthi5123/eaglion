@@ -35,7 +35,7 @@ const Footer = () => {
         <div className='' data-aos='fade-left'>
           <h3 className="text-lg font-semibold text-white mb-3">Follow Us</h3>
           <div className="flex space-x-5 text-xl mb-4">
-            <a href="https://wa.me/7738619990" target="_blank" rel="noreferrer" className="hover:text-green-400">
+            <a href="https://wa.me/7738462358" target="_blank" rel="noreferrer" className="hover:text-green-400">
               <FaWhatsapp />
             </a>
             <a href="https://instagram.com/Eaglion_23 " target="_blank" rel="noreferrer" className="hover:text-pink-500">
@@ -56,7 +56,7 @@ const Footer = () => {
             Got questions or need help choosing a product? We’re just a message away.
           </p>
           <a
-            href="https://wa.me/7738619990"
+            href="https://wa.me/7738462358"
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center space-x-2 bg-[#101828] text-white px-4 py-2 rounded-full shadow-md hover:bg-green-600 transition"
@@ -68,7 +68,7 @@ const Footer = () => {
 
         <div className="flex items-center text-sm text-gray-400  space-x-2">
             <FaPhoneAlt className="text-cyan-400" />
-            <span>7738619990 / 9321819634</span>
+            <span>7738462358 / 9321819634</span>
           </div>
         </div>
       </div>

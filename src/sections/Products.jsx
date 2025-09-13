@@ -1,17 +1,5 @@
 // import React from "react";
 import ProductCard from "../components/ProductCard";
-// import product1 from "/products/img1.jpeg";
-// import product2 from "/products/img2.jpeg";
-// import product3 from "/products/img3.jpeg";
-// import product4 from "/products/img4.jpeg";
-// import product5 from "/products/img5.jpeg";
-// import product6 from "/products/img6.jpeg";
-// import product7 from "/products/img7.jpeg";
-// import product8 from "/products/img8.jpeg";
-// import product9 from "/products/img9.jpeg";
-// import product10 from "/products/img10.jpeg";
-// import product11 from "/products/img11.jpeg";
-// import product12 from "/products/img12.jpeg";
 
 const Products = () => {
   const productData = [
@@ -33,7 +21,7 @@ const Products = () => {
     },
     {
       image: "/products/img3.jpeg",
-      title: "3D Moon Night Light Lamp",
+      title: "Moon Crystal Light Lamp",
       description:
         "Bring the moon to your room! This 3D-printed Moon Lamp glows in warm and cool tones",
       tag: "Trending Now",
@@ -49,11 +37,11 @@ const Products = () => {
     },
     {
       image: "/products/img5.jpeg",
-      title: "Tap Extender for kitchen Sink",
+      title: "Mini Travel Fruit Juice Blender",
       description:
-        "Flexible 360° swivel tap extender for easy rinsing and splash-free cleaning.",
+        "Easy to make juice, milkshake, smoothie and other baby food. It's very portable and great for traveling.",
       tag: "Trending Now",
-      price: "599",
+      price: "699",
     },
     {
       image: "/products/img6.jpeg",
@@ -65,11 +53,11 @@ const Products = () => {
     },
     {
       image: "/products/img7.jpeg",
-      title: "Super Silent Water Fan",
+      title: "Gua Sha face massager",
       description:
-        "Stay cool in peace. Whisper-quiet breeze with a refreshing mist — perfect for work, sleep, or study.",
+        "Gua Sha Face Massager Tool For Glowing Skin & Reducing Stress & Eye Puffiness and Relax Muscles.",
       tag: "Trending Now",
-      price: "499",
+      price: "229",
     },
     {
       image: "/products/img8.jpeg",
@@ -85,7 +73,7 @@ const Products = () => {
       description:
         "Scalp Massager, Portable  Waterproof Massager, 3 Modes, Handheld Head Massager for Head.",
       tag: "Trending Now",
-      price: "599",
+      price: "699",
     },
     {
       image: "/products/img10.jpeg",
@@ -97,19 +85,179 @@ const Products = () => {
     },
     {
       image: "/products/img11.jpeg",
-      title: "Solar Car Air Refresher",
+      title: "Rechargeable Panda Lamp",
       description:
-        "Breathe fresh, drive fresh — solar-powered and scent-filled for a clean, energized car every ride.",
+        "Bring warmth and charm into your room with this adorable panda-shaped lamp.",
+      tag: "Trending Now",
+      price: "349",
+    },
+    {
+      image: "/products/img12.jpeg",
+      title: "Mini Bugatti Toy Car",
+      description:
+        "Made from durable steel with a sleek finish. This small-sized collectible is perfect for kids or car enthusiast.",
+      tag: "Trending Now",
+      price: "1599",
+    },
+    {
+      image: "/products/img13.jpeg",
+      title: "Dream Rotating Lamp",
+      description:
+        "Create a magical night sky indoors with the Star Master Dream Rotating Projection Lamp.",
+      tag: "Trending Now",
+      price: "349",
+    },
+    {
+      image: "/products/img14.jpeg",
+      title: "Astronaut Galaxy Projector",
+      description:
+        "Transform your room into a cosmic wonder with mesmerizing nebula and star projections.",
+      tag: "Trending Now",
+      price: "699",
+    },
+    {
+      image: "/products/img15.jpeg",
+      title: "Titanic Liquid Desk Toy",
+      description:
+        "A mini floating Titanic in liquid, perfect as a paperweight or desk decor.",
+      tag: "Trending Now",
+      price: "349",
+    },
+    {
+      image: "/products/img16.jpeg",
+      title: "Hot Wheels Car Collection",
+      description:
+        "A set of stylish, high-speed miniature cars built for racing fun and collecting.",
+      tag: "Trending Now",
+      price: "799",
+    },
+    {
+      image: "/products/img17.jpeg",
+      title: "Baby casting kit",
+      description:
+        "Create lasting 3D hand and foot impressions of your baby with safe, easy-to-use materials.",
+      tag: "Trending Now",
+      price: "799",
+    },
+    {
+      image: "/products/img18.jpeg",
+      title: "BMW Car Toy",
+      description:
+        "A durable, sleek miniature made from premium steel, perfect for kids and collectors alike.",
+      tag: "Trending Now",
+      price: "1999",
+    },
+    {
+      image: "/products/img19.jpeg",
+      title: "Wireless Keyboard and Mouse ",
+      description:
+        "Sleek, ergonomic, and cable-free set for smooth typing and precise control.",
+      tag: "Trending Now",
+      price: "1499",
+    },
+    {
+      image: "/products/img20.jpeg",
+      title: "Rolls-Royce Toy Car",
+      description:
+        "A premium miniature with sleek detailing and durable build, perfect for kids or collectors.",
+      tag: "Trending Now",
+      price: "1499",
+    },
+    {
+      image: "/products/img21.jpeg",
+      title: "Luxurious Desktop Lamp ",
+      description:
+        "Elegant design with premium finish, offering warm ambient lighting for a stylish workspace.",
       tag: "Trending Now",
       price: "599",
     },
     {
-      image: "/products/img12.jpeg",
-      title: "Mini Turbo Jet Blower",
+      image: "/products/img22.jpeg",
+      title: "Glass sippy cup ",
       description:
-        "Compact but powerful — blast away dust in seconds with this turbo-charged mini blower.",
+        "Safe, durable, and eco-friendly cup with spill-proof design, perfect for toddlers transitioning from bottles.",
       tag: "Trending Now",
-      price: "1999",
+      price: "399",
+    },
+    {
+      image: "/products/img23.jpeg",
+      title: "Rolls-Royce Toy Car",
+      description:
+        "A premium miniature with sleek detailing and durable build, perfect for kids or collectors.",
+      tag: "Trending Now",
+      price: "1900",
+    },
+    {
+      image: "/products/img24.jpeg",
+      title: "LED Mirror Light",
+      description:
+        "Modern mirror with built-in electronic light, temperature display, and sleek design for any room.",
+      tag: "Trending Now",
+      price: "799",
+    },
+    {
+      image: "/products/img25.jpeg",
+      title: "Waterproof Speaker",
+      description:
+        "Portable, durable, and splash-proof with powerful sound for indoor and outdoor use.",
+      tag: "Trending Now",
+      price: "799",
+    },
+    {
+      image: "/products/img26.jpeg",
+      title: "Micro stream iron machine ",
+      description:
+        "Compact and portable steamer for quick wrinkle removal and easy garment care.",
+      tag: "Trending Now",
+      price: "799",
+    },
+    {
+      image: "/products/img27.jpeg",
+      title: "Toy car Steel",
+      description:
+        " Durable miniature car with sleek design, perfect for kids and collectors alike.",
+      tag: "Trending Now",
+      price: "1599rs",
+    },
+    {
+      image: "/products/img28.jpeg",
+      title: "Modern crystal lamp",
+      description:
+        " Elegant design with sparkling crystal accents, perfect for adding a touch of luxury to any room.",
+      tag: "Trending Now",
+      price: "799",
+    },
+    {
+      image: "/products/img29.jpeg",
+      title: "Bluetooth speaker ",
+      description:
+        "Compact, wireless, and delivers powerful sound anywhere.",
+      tag: "Trending Now",
+      price: "1699",
+    },
+    {
+      image: "/products/img30.jpeg",
+      title: "Ferrari Toy Car",
+      description:
+        "Sleek, high-quality miniature car designed for collectors and racing enthusiasts.",
+      tag: "Trending Now",
+      price: "1799",
+    },
+    {
+      image: "/products/img31.jpeg",
+      title: "Cosmetic storage makeup box",
+      description:
+        " Stylish and organized makeup storage with compartments to keep all your beauty essentials",
+      tag: "Trending Now",
+      price: "2499",
+    },
+    {
+      image: "/products/img32.jpeg",
+      title: "P9 headset",
+      description:
+        "Comfortable, high-quality audio headset with clear sound for gaming, calls, or music.",
+      tag: "Trending Now",
+      price: "1299",
     },
   ];
 
